@@ -1,0 +1,59 @@
+@keyframes spinning {
+    from { transform: rotate(0deg) }
+    to { transform: rotate(360deg) }
+  }
+
+.portifolio__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+.portifolio__item{
+    background: var(--color-bg-vaiant);
+    padding: 1.2rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    
+}
+.portifolio__item:hover{
+    border-color: var(--color-primary-variant);
+    background: transparent;
+}
+.portifolio__item-image{
+    border-radius: 1.5rem;
+    overflow: hidden;
+    
+}
+.portifolio__item h3{
+    margin: 1.2rem 0 2rem;
+    text-align: center;
+
+    /* animation-name: spinning;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    /* linear | ease | ease-in | ease-out | ease-in-out */
+    /* animation-timing-function: linear;  */
+}
+.portifolio__item-cta{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+    justify-content: center;
+}
+
+/*---------------Media Query Tablet*/
+@media screen and (max-width: 1024px) {
+    .portifolio__container{
+        grid-template-columns: 1fr 1fr;
+    }
+  
+    }
+    /*---------------Media Query phone*/
+    @media screen and (max-width: 600px) {
+      .portifolio__container{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
+       
+    }
