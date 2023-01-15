@@ -4,7 +4,7 @@ import {AiOutlineMail} from 'react-icons/ai'
 import {BsMessenger} from 'react-icons/bs'
 import {FaWhatsappSquare} from 'react-icons/fa'
 import React from 'react'
-import ('./Contact.css')
+import './Contact.css'
 
 
 const Contact = () => {

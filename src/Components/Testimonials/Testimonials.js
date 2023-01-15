@@ -1,13 +1,14 @@
 // import Swiper core and required modules
 import { Navigation, Pagination, Scrollbar } from 'swiper';
 
-import { Swiper, SwiperSlide} from 'swiper/react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+
 
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
+// import 'swiper/css';
+// import 'swiper/css/navigation';
+// import 'swiper/css/pagination';
+// import 'swiper/css/scrollbar';
 
 
 
@@ -16,7 +17,7 @@ import rev2 from '../../asset/ctd.png'
 import rev3 from '../../asset/arba minch.jpeg'
 
 import React from 'react'
-import ('./Testimonials.css')
+import "./Testimonials.css"
 
 const data =[
   {

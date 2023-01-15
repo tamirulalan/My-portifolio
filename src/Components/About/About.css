@@ -1,7 +1,12 @@
+#about{
+    background:   #1a2a39;
+}
+
 .about__container{
     display: grid;
     grid-template-columns: 30% 50%;
     gap: 15%;
+    
 }
 .about__me{
     width: 100%;

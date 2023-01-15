@@ -1,6 +1,6 @@
 import {BsFacebook, BsTwitter, BsInstagram} from 'react-icons/bs'
 import React from 'react'
-import('./footer.css')
+import './footer.css'
 const Footer = () => {
   return (
     <footer className='Footer'>

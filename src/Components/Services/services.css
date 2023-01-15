@@ -1,3 +1,7 @@
+#service{
+    background:   #1a2a39;
+}
+
 .services__container{
     display: grid;
     grid-template-columns: repeat(3,1fr);

@@ -1,5 +1,6 @@
 #experience{
-    padding-top: 18rem;   
+    /* padding-top: 18rem;   */
+    background:   #1a2a39; 
 }
 .experience__container{
     display: grid;

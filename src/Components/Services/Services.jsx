@@ -1,6 +1,6 @@
 import {BsFillCheckCircleFill} from 'react-icons/bs'
 import React from 'react'
-import ('./services.css')
+import './services.css'
 
 const services = () => {
   return (

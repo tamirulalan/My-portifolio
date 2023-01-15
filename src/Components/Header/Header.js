@@ -3,7 +3,7 @@ import HeaderSocial from './HeaderSocial'
 import tame from '../../asset/tame.png'
 import CTA from './CTA.js'
 import React from 'react'
-import ('./header.css')
+import './header.css'
 
 
 
