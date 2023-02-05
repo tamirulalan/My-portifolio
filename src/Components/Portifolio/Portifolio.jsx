@@ -32,17 +32,17 @@ const data =[
   {
     id:4,
     image: img4,
-    title: 'Pokemon',
-    github: 'https://github.com/tamirulalan/-pokemon_app',
-    url: 'https://tamirulalan.github.io/Ale-Buff/'
+    title: 'Inventory Track',
+    github: 'https://github.com/tamirulalan/bright-market',
+    url: 'https://github.com/tamirulalan/BrightMarketExpress'
   },
-  {
-    id:5,
-    image: img5,
-    title: 'Final Project not yet...',
-    github: 'https://github.com/tamirulalan/Ale-Buff',
-    url: 'https://tamirulalan.github.io/Ale-Buff/'
-  }
+  // {
+  //   id:5,
+  //   image: img5,
+  //   title: 'Final Project not yet...',
+  //   github: 'https://github.com/tamirulalan/Ale-Buff',
+  //   url: 'https://tamirulalan.github.io/Ale-Buff/'
+  // }
 ]
 
 const portifolio = () => {
