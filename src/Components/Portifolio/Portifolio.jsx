@@ -4,7 +4,7 @@ import img1 from '../../asset/project1.png'
 import img2 from '../../asset/project2.png'
 import img3 from '../../asset/project3.png'
 import img4 from '../../asset/project4.png'
-import img5 from '../../asset/project5.png'
+//import img5 from '../../asset/project5.png'
 import './portifolio.css'
 
 const data =[

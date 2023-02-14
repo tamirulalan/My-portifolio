@@ -1,15 +1,13 @@
 // import Swiper core and required modules
-import { Navigation, Pagination, Scrollbar } from 'swiper';
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-
 // Import Swiper styles
- import 'swiper/css';
- import 'swiper/css/navigation';
- import 'swiper/css/pagination';
- import 'swiper/css/scrollbar';
-
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
 
 import rev1 from '../../asset/Perscholas.jpeg'
